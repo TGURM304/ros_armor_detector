@@ -1,5 +1,0 @@
-以下三个文件均只是提供框架，需要根据需求写入算法或更改部分已有变量
-open_camera.cpp:打开工业相机，创建节点capture_image，发布原图像话题/capture_image和预处理后的二值图/capture_image/image_manage
-contour_retrieval.cpp:订阅capture_image节点的/capture_image/image_manage图像进行轮廓检索，发布所得的所有装甲板中心点/center_point
-center_point_solve.cpp：订阅/center_point，寻找到最合适距离的装甲板中心并发布到/lastest_center_point
-uart_serial.cpp:订阅/yaw_and_pitch，串口通信发布yaw和pitch到电控
