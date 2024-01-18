@@ -1,0 +1,8 @@
+prefix=/home/dji/workspace/devel
+
+Name: receive
+Description: Description of receive
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/dji/workspace/devel/lib 
+Requires: 
